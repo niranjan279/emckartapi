@@ -7,8 +7,14 @@ const app = express();
 
 //Add/Update your frontend url to avoid CORS error
 var corsOptions = {
-  origin: ["http://localhost:5173", "http://192.168.1.18:5173", "http://192.168.1.4:5173/","https://emckartapi.onrender.com"]
-};
+  origin: [
+    "http://localhost:5173", 
+    "http://192.168.1.18:5173", 
+    "http://192.168.1.4:5173",
+    "https://emckartapi.onrender.com",
+    "https://emc-kart-ui.vercel.app"
+  ]
+  };
 
 app.use(cors(corsOptions));
 
