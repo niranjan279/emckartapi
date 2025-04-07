@@ -1,0 +1,4 @@
+
+node_modules
+cred/serviceKey.json
+.env
